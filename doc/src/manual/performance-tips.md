@@ -491,7 +491,7 @@ function with_keyword(x; name::Int = 1)
 end
 ```
 
-Functions are specialized on the types of keyword arguments, so these declarations will not affect
+Functions are not specialized on the types of keyword arguments, so these declarations will not affect
 performance of code inside the function. However, they will reduce the overhead of calls to the
 function that include keyword arguments.
 
